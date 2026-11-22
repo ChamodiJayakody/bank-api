@@ -1,0 +1,15 @@
+warning: in the working copy of 'src/main/resources/application.properties', LF will be replaced by CRLF the next time Git touches it
+[1mdiff --git a/src/main/resources/application.properties b/src/main/resources/application.properties[m
+[1mindex 026d6d3..dd84af3 100644[m
+[1m--- a/src/main/resources/application.properties[m
+[1m+++ b/src/main/resources/application.properties[m
+[36m@@ -1 +1,8 @@[m
+ spring.application.name=bank-api[m
+[32m+[m[32mspring.datasource.url=jdbc:postgresql://localhost:5432/bankdb[m
+[32m+[m[32mspring.datasource.username=${DB_USERNAME:postgres}[m
+[32m+[m[32mspring.datasource.password=${DB_PASSWORD}[m
+[32m+[m
+[32m+[m[32mspring.jpa.hibernate.ddl-auto=update[m
+[32m+[m[32mspring.jpa.open-in-view=false[m
+[32m+[m[32mspring.jpa.show-sql=true[m
+\ No newline at end of file[m
